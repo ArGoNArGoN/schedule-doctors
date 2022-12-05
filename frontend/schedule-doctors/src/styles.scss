@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --selected-item-background-color: #DAAA00;
+    --hover-item-background-color: #F0BB00;
+    --button-user-background-color: #BF9E27;
+    --hover-button-background-color: #F0BB00;
+}
+
+html, body {
+    height: 100%;
+    background-color: #F6EFEF;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+input, div, span, label {
+    font-size: 18px;
+}
+input {
+    width: 100%;
+}
+._container {
+    display: flex;
+
+    &-center {
+        justify-content: center;
+    }
+}

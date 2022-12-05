@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper {
+    &__header {
+        /**TODO: Delete*/
+        background-color: gray;
+
+        display: flex;
+        align-items: center;
+        min-height: 80px;
+    }
+
+    &__footer {
+        /**TODO: Delete*/
+        height: 50px;
+        background-color: gray;
+    }
+
+    &__header-link {
+        cursor: pointer;
+
+        &:hover {
+            color: lightskyblue;
+        }
+    }
+
+    &__body {
+        flex-grow: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
